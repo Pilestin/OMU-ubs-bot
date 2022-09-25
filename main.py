@@ -25,11 +25,14 @@ class UBS_Savar():
         self.driver.implicitly_wait(1)
 
         nameBox   = self.driver.find_element(By.XPATH, '//*[@id="txtLogin"]')
+        self.driver.implicitly_wait(1)
         passBox   = self.driver.find_element(By.XPATH, '//*[@id="txtPassword"]')
+        self.driver.implicitly_wait(1)
         loginBox  = self.driver.find_element(By.XPATH, '//*[@id="btnLogin"]')
 
         # ogr_name ve ogr_sifre my_info dosyasından alınır.
         nameBox.send_keys(ogr_name)
+        self.driver.implicitly_wait(1)
         passBox.send_keys(ogr_sifre)
         self.driver.implicitly_wait(1)
         loginBox.click()
