@@ -16,4 +16,4 @@ Eğer sizde OMÜ öğrenci bilgi siteminden cinnet geçirecek gibi oluyorsanız 
 
 - driver klasörünü kesinlikle indirmiş olmalısın 
 - Google Chrome 105.0.5195... sürümünü kullanıyor olmalısın. 
-- Eğer başka sürüm kullanıyorsan https://chromedriver.chromium.org/downloads buradan indirip, varolan ile değiştirebilirsin
+- Eğer başka sürüm kullanıyorsan https://chromedriver.chromium.org/downloads buradan indirip, var olan ile değiştirebilirsin
